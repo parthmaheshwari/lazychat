@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/myRelativeLayout"
+    android:background="@drawable/techbg">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:id="@+id/button"
+        android:background="@drawable/wifi"
+        android:alpha="0.7"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:id="@+id/button2"
+        android:background="@drawable/bluetooth"
+        android:alpha="0.7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LazyChat"
+        android:id="@+id/textView"
+        android:textColor="#fffffcf9"
+        android:textSize="70sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="0dp"
+        android:padding="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Developed by- Parth Maheshwari"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
